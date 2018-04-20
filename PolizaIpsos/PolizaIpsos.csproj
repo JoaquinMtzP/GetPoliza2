@@ -153,6 +153,7 @@
     <Content Include="Images\twitter_a.png" />
     <Content Include="Images\twitter_b.png" />
     <Content Include="Logon.aspx" />
+    <Content Include="PolizaIpsos.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="Logon.aspx.designer.cs">
       <DependentUpon>Logon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PolizaIpsos.aspx.cs">
+      <DependentUpon>PolizaIpsos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PolizaIpsos.aspx.designer.cs">
+      <DependentUpon>PolizaIpsos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

@@ -7,7 +7,7 @@
 <meta content="text/html; charset=utf-8"/>
     <link href="Content/normalize.css" rel="stylesheet" />
     <link href="Content/IpsosIT.css" rel="stylesheet" />
-    <%--<title>Polizas Ipsos</title>--%>
+    <title>Polizas Ipsos</title>
 </head>
 <body>
     
@@ -17,7 +17,7 @@
             </div>
          </div>
          <div id="center">
-            <h1 class="title"> Sistema Nóminas Ipsos 2018</h1>
+            <h1 class="title">Departamento de nómina</h1>
 
             <div id="logo_ipsos_a"></div>
 
@@ -29,11 +29,14 @@
                     <asp:TextBox ID="Pass" runat="server" TextMode="Password"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="Pass" ErrorMessage="Ingrese su pasword"></asp:RequiredFieldValidator>
                     <br/>
-                    <asp:Button ID="btnEntrar" runat="server" Text="Button" />
+                    <asp:Button ID="btnEntrar" runat="server" Text="Aceptar" BackColor="#0099FF" ForeColor="White" OnClick="btnEntrar_Click" />
                     <p class="text">Si tienes problemas para ingresar contactar a IT Development</p>
+
+            <div style="clear: both;">
+                <asp:Label ID="lblError" runat="server"></asp:Label>
+                    </div>
                 </form>
 
-            <div style="clear: both;"></div>
         </div>
       </div>
           <div id="bottom">
